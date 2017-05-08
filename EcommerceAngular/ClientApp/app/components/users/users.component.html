@@ -1,0 +1,9 @@
+﻿<h1>All Users</h1>
+
+<div class="container">
+    <div *ngFor="let user of users">
+        <h1>{{user.firstName}}</h1>
+        <h1>{{user.email}}</h1>
+    </div>
+</div>
+{{users | json}}
