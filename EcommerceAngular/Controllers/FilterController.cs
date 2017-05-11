@@ -1,7 +1,12 @@
-﻿namespace EcommerceAngular.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace EcommerceAngular.Controllers
 {
-    public class FilterController
+    public class FilterController : Controller
     {
-        
+        public FilterController()
+        {
+                    
+        }
     }
 }

@@ -4,7 +4,7 @@ namespace EcommerceData.Models
 {
     public class Review
     {
-        public int Id { get; set; }
+        public string Id { get; set; } = IdGenerator.NewId();
         public Product Product { get; set; }
         public ApplicationUser ApplicationUser { get; set; }
         public string Author { get; set; }

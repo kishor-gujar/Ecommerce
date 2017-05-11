@@ -24,6 +24,11 @@ namespace EcommerceAngular
                 {
 
                 });
+            config.ForType<Review, Models.Review>()
+                .MapWith(src => new Models.Review
+                    {
+                        
+                    });
         }
     }
 }
