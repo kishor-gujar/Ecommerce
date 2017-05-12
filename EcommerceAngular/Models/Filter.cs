@@ -6,7 +6,5 @@ namespace EcommerceAngular.Models
     {
         public string FilterGroupName { get; set; }
         public int SortOrder { get; set; }
-
-        public List<Filter> Filters { get; set; }
     }
 }

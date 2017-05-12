@@ -15,20 +15,13 @@ namespace EcommerceAngular
                    DateCreated = src.DateCreated
                 });
             config.ForType<Attribute, Models.Attribute>()
-                .MapWith(src => new Models.Attribute
-                {
-
-                });
+                .MapWith(src => new Models.Attribute());
             config.ForType<AttributeGroup, Models.Attribute>()
-                .MapWith(src => new Models.Attribute
-                {
-
-                });
+                .MapWith(src => new Models.Attribute());
             config.ForType<Review, Models.Review>()
-                .MapWith(src => new Models.Review
-                    {
-                        
-                    });
+                .MapWith(src => new Models.Review());
+            config.ForType<Filter, Models.Filter>()
+                .MapWith(src => new Models.Filter());
         }
     }
 }
